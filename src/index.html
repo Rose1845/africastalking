@@ -13,6 +13,21 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <title>Salama Dada</title>
 </head>
+<script>
+  tailwind.config = {
+    content:["./src/**/*.{html,js,css}"],
+  theme: {
+    extend: {
+      colors:{
+        darkGrayishBlue:'hsl(227,12%,61%)',
+        veryDarkBlue:'hsl(233,12%,13%)',
+      
+      }
+    },
+  },
+  plugins: [],
+  }
+</script>
 <style>
   .swiper-pagination {
     bottom: 0;

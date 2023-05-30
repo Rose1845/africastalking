@@ -52,3 +52,18 @@
 .open .hamburger-bottom{
     transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
+.main-content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/image\ 6.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.main-content-inner {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
